@@ -1,0 +1,11 @@
+.info-container{
+    padding: 45px 5px;
+    border-radius: 9px;
+}
+@media(max-width:575px){
+    .info-container{
+        margin-bottom: 25px;
+        margin-left: 5%;
+        width: 100%;
+    }
+}

@@ -1,0 +1,17 @@
+.header-area {
+    height: auto;
+    position: relative;
+    background-image: url('../../../images/chairBg.png');
+    background-size: cover;
+}
+
+.header-area::after {
+    content: ' ';
+    height: 745px;
+    position: absolute;
+    top: 0;
+    width: 35%;
+    right: 0;
+    background-color: #3A4256;
+    z-index: -50;
+}

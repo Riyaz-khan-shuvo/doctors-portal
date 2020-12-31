@@ -1,0 +1,24 @@
+.banner-area{
+    text-align: justify;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+@media(max-width:575px){
+    .banner-area{
+        margin: auto;
+
+    }
+    .banner-area .banner-item{
+        padding: 0 10%;
+    }
+    .banner-area .banner-img{
+        
+    }
+    .banner-area .banner-img img{
+        margin-left: 5%;
+    }
+    .banner-area .banner-item p{
+        color: blue;
+        font-weight: 500;
+        font-size: 19px;
+    }
+}
